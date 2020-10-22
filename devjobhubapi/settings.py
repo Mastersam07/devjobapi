@@ -25,12 +25,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ')d6&jiwzv^ob%$%sr)ce7ffu$d7r4b9*8%3=xfx5^)y*aa5-ay'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'https://devjobhub.herokuapp.com']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1']
 
 CORS_ORIGIN_ALLOW_ALL = True
 
@@ -109,19 +109,16 @@ WSGI_APPLICATION = 'devjobhubapi.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'devjobhub',
-#         'USER': "postgres",
-#         'PASSWORD': "mastersam",
-#         'HOST': 'localhost',  # Or an IP Address that your DB is hosted on
-#         'PORT': '',  # port number
-#     }
-# }
-
-DATABASES = {}
-DATABASES['default'] = dj_database_url.config(conn_max_age=600)
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': '',
+        'USER': "",
+        'PASSWORD': "",
+        'HOST': 'localhost',  # Or an IP Address that your DB is hosted on
+        'PORT': '',  # port number
+    }
+}
 
 # DATABASES = {
 #     'default': {
