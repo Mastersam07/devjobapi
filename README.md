@@ -6,16 +6,16 @@ Programming job listing api
 [![Framework](https://img.shields.io/badge/Framework-Django%20Rest-success?style=flat-square)](https://www.djangoproject.com/)
 [![License](https://img.shields.io/badge/license-MIT-success.svg?style=flat-square)](https://github.com/Mastersam07/devjobapi/blob/main/LICENSE)
 
-> Please note that i am in no way related to any of the jobs/company listed by this api. All jobs are gotten from the following:
->>https://weworkremotely.com/
->>https://remoteok.io/remote-dev-jobs
->>https://www.employremotely.com/jobs
+> Please note that i am in no way related to any of the jobs/company listed by this api. All jobs are gotten from the following via an automated process:
+>> - https://weworkremotely.com/
+>> - https://remoteok.io/remote-dev-jobs
+>> - https://www.employremotely.com/jobs
 <!-- >>https://remotive.io/remote-jobs/software-dev -->
->>https://stackoverflow.com/jobs
->>https://jobs.github.com
->>https://remote.co/remote-jobs/developer
->>https://www.python.org/jobs
->>https://www.hackerrank.com/jobs/search
+>> - https://stackoverflow.com/jobs
+>> - https://jobs.github.com
+>> - https://remote.co/remote-jobs/developer
+>> - https://www.python.org/jobs
+>> - https://www.hackerrank.com/jobs/search
 
 
 ## 💻 Requirements
