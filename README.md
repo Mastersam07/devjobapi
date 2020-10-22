@@ -113,6 +113,7 @@ $ python manage.py collectstatic
 #### <a href="https://github.com/Mastersam07/devjobapi/blob/master/LICENSE">MIT LICENSE</a>
 
 ## 🤓 Developer(s)
+[<img src="https://avatars3.githubusercontent.com/u/31275429?s=460&u=b935d608a06c1604bae1d971e69a731480a27d46&v=4" width="180" />](https://twitter.com/mastersam_)
 #### **Abada Samuel Oghenero**
 <a href="https://twitter.com/mastersam_"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
 <a href="https://linkedin.com/in/abada-samuel/"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
